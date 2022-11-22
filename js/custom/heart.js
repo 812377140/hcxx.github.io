@@ -1,5 +1,5 @@
 /* eslint-disable no-mixed-operators */
-$(function () {
+window.onload = function () {
   let color = ['red', 'yellow', 'green', 'pink', 'blue', 'purple', 'orangered'];
   let content = [
     '🧡',
@@ -74,4 +74,4 @@ $(function () {
       text.out(span);
     }, 1900);
   };
-});
+};
